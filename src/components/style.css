@@ -1,0 +1,29 @@
+/* styles.css (o el nombre de tu archivo de estilos) */
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    border: 1px solid #ccc; /* Opcional: agregar un borde a la tarjeta */
+    border-radius: 10px; /* Opcional: redondear las esquinas */
+    padding: 20px; /* Espacio interno para los elementos internos */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card h2 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 1em;
+    margin: 0;
+  }
+  

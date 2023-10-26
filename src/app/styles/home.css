@@ -1,0 +1,43 @@
+.Contendio{
+    background-color: rgb(6, 134, 246);
+}
+.box{
+    color:rgb(255, 0, 0);
+}
+
+.box {
+    width: 4px;
+    height: 1000px;
+    background: red;
+}
+
+.box .rectangle {
+    position: absolute;
+    width: 1px;
+    height: 1400px;
+    top: 0;
+    left: 300px;
+    background-color: white;
+}
+
+/* styles.css (o el nombre de tu archivo de estilos) */
+.container {
+    display: grid;
+    grid-template-columns: 20% 1fr; /* El primer div ocupa el 30%, el segundo el resto. */
+    width: 100%; /* Opcional, para que el contenedor ocupe el 100% del ancho del padre. */
+  }
+  
+  .left-div {
+    /*background-color: #3498db; /* Color de fondo para el div izquierdo. */
+    padding: 10px; /* Añade espacio interno según tus necesidades. */
+    border-right: 2px solid white; /* Añade un borde blanco en el lado derecho del div izquierdo. */
+
+  }
+  
+  .right-div {
+    /*background-color: #e74c3c; /* Color de fondo para el div derecho. */
+    padding: 10px; /* Añade espacio interno según tus necesidades. */
+  }
+
+  
+
