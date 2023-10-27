@@ -1,3 +1,8 @@
+.body{
+    width: 100%;
+    height: 100%;
+}
+
 .Contendio{
     background-color: rgb(6, 134, 246);
 }
@@ -20,24 +25,41 @@
     background-color: white;
 }
 
-/* styles.css (o el nombre de tu archivo de estilos) */
 .container {
     display: grid;
-    grid-template-columns: 20% 1fr; /* El primer div ocupa el 30%, el segundo el resto. */
-    width: 100%; /* Opcional, para que el contenedor ocupe el 100% del ancho del padre. */
-  }
-  
-  .left-div {
-    /*background-color: #3498db; /* Color de fondo para el div izquierdo. */
-    padding: 10px; /* Añade espacio interno según tus necesidades. */
-    border-right: 2px solid white; /* Añade un borde blanco en el lado derecho del div izquierdo. */
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 100%;
+}
 
-  }
-  
-  .right-div {
-    /*background-color: #e74c3c; /* Color de fondo para el div derecho. */
-    padding: 10px; /* Añade espacio interno según tus necesidades. */
-  }
+.left-div {
+    padding: 10px;
+    border-right: 1px solid white;
+}
 
+.right-div {
+    border-right: 1px solid white;
+
+}
+
+.imagen_home{
+    width: 100%;
+    height: auto;
+}
+
+
+.contain_nav {
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.boton_nav {
+    width: 40%;
+    margin-left: 30%;
+    display: block; /* Hacer que los elementos Link sean elementos de bloque */
+    text-align: center; /* Centra el texto horizontalmente en los elementos de bloque */
+}
   
 

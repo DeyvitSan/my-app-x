@@ -1,29 +1,38 @@
-/* styles.css (o el nombre de tu archivo de estilos) */
 .card {
-    width: 300px;
-    height: 400px;
-    background-color: red;
-    border: 1px solid #ccc; /* Opcional: agregar un borde a la tarjeta */
-    border-radius: 10px; /* Opcional: redondear las esquinas */
-    padding: 20px; /* Espacio interno para los elementos internos */
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center; /* Alinea verticalmente los elementos en el centro */
+    align-items: center; /* Alinea horizontalmente los elementos en el centro */
     text-align: center;
-  }
-  
-  .card img {
-    max-width: 100%;
+}
+
+.contain_image {
+    margin-top: 20px;
+    display: flex;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    padding: 0;
+}
+
+.image{
+    max-width: 70%;
     height: auto;
-  }
-  
-  .card h2 {
+    border-radius: 20px;
+}
+
+.card h2 {
     font-size: 1.5em;
     margin: 0;
-  }
-  
-  .card p {
+}
+
+.card p {
     font-size: 1em;
     margin: 0;
-  }
+}
   
